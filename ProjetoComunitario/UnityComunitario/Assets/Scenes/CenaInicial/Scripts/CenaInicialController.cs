@@ -15,7 +15,7 @@ public class CenaInicialController : MonoBehaviour
 
     private void StartPressed(InputAction.CallbackContext context)
     {
-        Debug.Log("StartPressed");
+
     }
 
     private void OnEnable()
