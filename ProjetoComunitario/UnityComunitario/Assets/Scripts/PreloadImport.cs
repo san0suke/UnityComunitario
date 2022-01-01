@@ -7,6 +7,10 @@ public class PreloadImport : MonoBehaviour
 {
     void Start()
     {
-        SceneManager.LoadScene("_preload", LoadSceneMode.Additive);
+        var __app = GameObject.Find("__app");
+        if(__app == null)
+        {
+            SceneManager.LoadScene("_preload", LoadSceneMode.Additive);
+        }
     }
 }
