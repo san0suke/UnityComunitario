@@ -9,7 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Preload/_preload.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/CenaInicial/CenaInicial.unity
+    path: Assets/Scenes/InitialScene/InitialScene.unity
     guid: 9e8fbfcfe9cf5dc4cada1c5d708ae4f0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/MainMenu.unity
+    guid: 0cb4eb38c79f3ef4da5a3f6c62407f92
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 49adc6fb435db854c8e6223a35dc9222, type: 2}

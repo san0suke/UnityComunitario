@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
-public class CenaInicialController : MonoBehaviour
+public class InitialSceneController : MonoBehaviour
 {
     internal PlayerControls playerControls;
 
@@ -15,7 +16,7 @@ public class CenaInicialController : MonoBehaviour
 
     private void StartPressed(InputAction.CallbackContext context)
     {
-
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
     private void OnEnable()
